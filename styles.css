@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+	background-color:#C0C0C0;
+}
+
+
+
+.screen{
+	background-color:#242635;
+}
+
+#result{
+	border:none;
+	color: #fff;
+    text-align: right;
+    padding-right: 10px;
+	font-size:2rem;
+	height:155px;
+	width:282px;
+	background-color:#242635;
+}
+
+
+.row-4 {
+	padding:4% 1% 14%;
+}
+.row-3{
+padding:4% 2% 3%;
+}
+
+.row-2{
+padding:4% 2% 3%;
+}
+
+.row-5{
+/*padding:4% 2% 0%;*/
+}
+
+
+
+.clear{
+	    width: 50px;
+    height: 77px;
+	display:inline-block;
+    font-size: 2rem;
+    font-family: Book Antiqua;
+    border: none;
+    background-color: #0000D2;
+	    border-radius: 12px 1px;
+
+}
+
+
+.num{
+	    width: 50px;
+    height: 50px;
+	    font-size: 2rem;
+    font-family: Book Antiqua;
+    border: none;
+    background-color: #28354F;
+    border-radius: 100px;
+                                                                                
+}
+
+p{
+	color:#FFF;
+}
+
+.final-number {
+	
+	 width: 50px;
+    height: 50px;
+    font-family: Book Antiqua;
+    border: none;
+    border-radius: 100px;
+    background-color: #F00;
+ 
+}
+
+
+.number{
+	
+	    width: 50px;
+    height: 50px;
+	font-size:2rem;
+	font-family: Book Antiqua;
+	border:none;
+	background-color:#4AA5FF;
+	border-radius: 100px;
+}
+
+
+.pick{
+}
+
+.top{
+border-radius: 19px;
+	background-color:#242E46;
+}
+
+.buttons {
+	height:292px;
+		border-radius:0px 0px 0px 15px;
+	display: inline-block;
+    width: 78%;
+    background-color: #242E46;
+}
+
+.side-buttons {
+	height:294px;
+	border-radius:0px 0px 15px 0px;
+	display: inline-block;
+    width: 20%;
+    background-color: #3F537C;
+}
+
+.calculator {
+		border-radius:19px;
+    width: 38%;
+    position: absolute;
+    left: 37%;
+	background-color:#242635;
+}
+
+
+

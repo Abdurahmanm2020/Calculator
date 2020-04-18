@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<!-- bootstrap CDN Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Google Fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="calulator-css.css">
+  <!-- FontAwesome kit -->
+  <script src="https://kit.fontawesome.com/123926b258.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+       <button type="button" class="btn btn-info btn-lg btn-warning" data-toggle="modal" data-target="#myModal">choos a calculator </button>
+
+  
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+     
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <p> 
+<a href="index.html"><img src="option-4.png" /></a>
+  
+<a href="calulator - (2).html"><img src="option-2.png" /> </a>
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+      
+
+
+        <div class="calculator">
+            <div class="top">
+            <p>Copyright Calculator</p>
+            </div>
+            
+            <div class="screen">
+        <input type="text" id="result" placeholder="0"/> 
+
+            </div>
+            <div class="buttons">
+                 
+                 <div class="row-2">
+                <input type="button"class="1 num"  value="1" onClick="dis('1')"/>  
+           <input type="button"class="2 num" value="2" onClick="dis('2')"/>  
+            <input type="button" class="3 num" value="3" onClick="dis('3')"/> 
+
+                 </div>
+                 <div class="row-3">
+                <input type="button"class="4 num" value="4" onClick="dis('4')"/>  
+            <input type="button"class="5 num" value="5" onClick="dis('5')"/>  
+            <input type="button"class="6 num" value="6" onClick="dis('6')"/>  
+                 </div>
+                 <div class="row-4">
+                     <input type="button"class="7 num" value="7" onClick="dis('7')"/>
+            <input type="button"class="8 num" value="8" onClick="dis('8')"/> 
+            <input type="button"class="9 num" value="9" onClick="dis('9')"/>  
+                 </div>
+                 <div class="row-5">
+                    <input type="button"class="+ num" value="+" onClick="dis('+')"/>
+                    <input type="button"class="0 num" value="0" onClick="dis('0')"/>
+                  <input type="button"class="- num" value="-" onClick="dis('-')"/>
+                    </div>
+                </div>
+            <div class="side-buttons">
+        
+       <input type="button" class="clear" value="C" onClick="clr()"/>
+                 <input type="button"class="number" value="/" onClick="dis('/')"/>
+                    <input type="button"class=". num" value="." onClick="dis('.')"/>
+                    <input type="button"class="* num" value="*" onClick="dis('*')"/>
+                        <input type="button" class="final-number" value=" = " onClick="solve()"/>
+                
+                
+                
+                          </div>
+      
+ 
+    </div>
+    
+    
+    
+  
+    
+   
+
+        
+      
+  
+<script src="jquery-3.4.1.min.js"></script>
+<script src="calulator-java.js" charset ="utf-8"> </script>
+</body>
+</html>
